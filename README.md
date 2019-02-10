@@ -90,7 +90,7 @@ EasyPR的调用非常简单，下面是一段示例代码:
 	pr.setDetectType(PR_DETECT_CMSER);
 ```
 
-这句话设置EasyPR采用的车牌定位算法。CMER代表文字定位方法，SOBEL和COLOR分别代表边缘和颜色定位方法。可以通过"|"符号结合。
+这句话设置EasyPR采用的车牌定位算法。CMSER代表文字定位方法，SOBEL和COLOR分别代表边缘和颜色定位方法。可以通过"|"符号结合。
 
 ```c++
 	pr.setDetectType(PR_DETECT_COLOR | PR_DETECT_SOBEL);
